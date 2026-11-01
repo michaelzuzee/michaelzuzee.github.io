@@ -10,11 +10,11 @@ locale                   : "en-US"
 title                    : "Michael Zuze"
 title_separator          : "-"
 name                     : &name "Michael Zuze"
-description              : &description "Applied development economist working on informality, labour markets and poverty in Southern Africa"
-url                      : https://michaelzuzee.github.io # the base hostname & protocol for your site
+description              : &description "personal description"
+url                      : https://michaelzuzee.github.io/michaelzuze.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "michaelzuzee/michaelzuzee.github.io"
-teaser                   :  # filename of fallback teaser image placed in /images/, e.g. "500x300.png"
+repository               : "academicpages/academicpages.github.io"
+teaser                   :  # filenamxfe of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
@@ -73,7 +73,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  false # false (default), "google", "google-universal", "custom"
+  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
@@ -81,15 +81,15 @@ analytics:
 # Site Author
 author:
   name             : "Michael Zuze"
-  avatar           : "mz.png"
+  avatar           : "mz.png" 
   bio              : "Applied development microeconomist"
-  location         : "Stellenbosch, South Africa"
+  location         : "Cape Town, South Africa"
   employer         : "Stellenbosch University"
   employer_url     : "https://www.sun.ac.za"
-  pubmed           :
+  pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=X66Huc8AAAAJ&hl=en"
   email            : "michaelzuzee@gmail.com"
-  researchgate     : "https://www.researchgate.net/profile/Michael-Zuze"
+  researchgate     : "https://www.researchgate.net/profile/Michael-Zuze?ev=hdr_xprf" 
   uri              :
   bitbucket        :
   codepen          :
@@ -101,13 +101,13 @@ author:
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      :
+  impactstory      : 
   lastfm           :
   linkedin         : "michael-zuze-20653a68"
-  orcid            : "https://orcid.org/0000-0002-9428-2488"
+  orcid            : "https://orcid.org/my-orcid?orcid=0000-0002-9428-2488"
   pinterest        :
   soundcloud       :
-  stackoverflow    :
+  stackoverflow    : 
   steam            :
   tumblr           :
   twitter          : "michaelzuzee"
@@ -231,7 +231,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # workingpapers
+    # workingpapers
   - scope:
       path: ""
       type: workingpapers
@@ -268,7 +268,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Africa/Johannesburg # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
@@ -288,6 +288,15 @@ whitelist:
 
 
 # Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
