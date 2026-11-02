@@ -234,3 +234,8 @@ table th {
 .page__footer a:hover {
   color: var(--mz-accent);
 }
+.page__content a,
+.page__content a:visited,
+.page__content a:hover {
+  text-decoration: none;
+}
