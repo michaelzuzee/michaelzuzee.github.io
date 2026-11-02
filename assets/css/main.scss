@@ -40,61 +40,47 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-/* Custom wallpaper */
+/* Plain sky blue background on every page */
 body {
-  background-color: #f5f7fa;
-  background-image: url("/images/wallpaper.svg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background-color: #87ceeb;
 }
 
-/* Lets the wallpaper show through while keeping text readable */
+/* Keeps the main text on a soft white panel so it stays easy to read */
 #main {
   background: rgba(255, 255, 255, 0.85);
 }
 
-/* Rotating research keyword */
-.mz-swap {
-  position: relative;
-  display: inline-block;
-  height: 1.4em;
-  vertical-align: bottom;
-  overflow: hidden;
+/* Typewriter research line */
+.mz-tagline {
+  margin-bottom: 1.5em;
+  font-style: italic;
+}
+
+@media (max-width: 600px) {
+  .mz-tagline {
+    min-height: 3.2em;
+  }
+}
+
+.mz-type {
   color: #2f6f73;
   font-weight: 600;
-  transition: width 0.6s cubic-bezier(0.65, 0, 0.35, 1);
 }
 
-.mz-swap::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0.15em;
-  height: 2px;
-  background: currentColor;
-  opacity: 0.3;
+.mz-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1.1em;
+  margin-left: 3px;
+  vertical-align: text-bottom;
+  background: #2f6f73;
+  animation: mz-blink 1s steps(1) infinite;
 }
 
-.mz-word {
-  position: absolute;
-  left: 0;
-  top: 0;
-  white-space: nowrap;
-  transition: transform 0.6s cubic-bezier(0.65, 0, 0.35, 1),
-              opacity 0.6s ease,
-              filter 0.6s ease;
+@keyframes mz-blink {
+  50% { opacity: 0; }
 }
 
-.mz-word.enter {
-  transform: translateY(100%);
-  opacity: 0;
-  filter: blur(4px);
-}
-
-.mz-word.exit {
-  transform: translateY(-100%);
-  opacity: 0;
-  filter: blur(4px);
+@media (prefers-reduced-motion: reduce) {
+  .mz-cursor { animation: none; }
 }
