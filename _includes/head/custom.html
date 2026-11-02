@@ -12,6 +12,9 @@
 <link rel="shortcut icon" href="{{ base_path }}/images/favicon.ico?v=2">
 <meta name="theme-color" content="#0f4c81">
 
+<!-- Search result description -->
+<meta name="description" content="{{ page.description | default: page.excerpt | default: site.description | strip_html | strip_newlines | escape_once }}">
+
 <!-- Preview card when the site is shared on LinkedIn, X, WhatsApp and email -->
 <meta property="og:image" content="https://michaelzuzee.github.io/images/social-preview.png">
 <meta property="og:image:width" content="1200">
@@ -40,3 +43,8 @@
 <link rel="stylesheet" href="/assets/css/custom.css?v=2">
 <link rel="stylesheet" href="/assets/css/animations.css?v=1">
 <script src="/assets/js/animations.js?v=1" defer></script>
+
+<!-- Wallpaper and colour theme. Change the two words to restyle the whole site. -->
+<script>document.documentElement.setAttribute("data-wallpaper","grid");</script>
+<script>document.documentElement.setAttribute("data-theme","ocean");</script>
+<link rel="stylesheet" href="/assets/css/appearance.css?v=1">
