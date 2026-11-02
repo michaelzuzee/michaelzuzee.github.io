@@ -1,3 +1,13 @@
+---
+permalink: /
+title: "About me"
+excerpt: "About me"
+author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
+---
+
 # About me
 
 I am a development economist completing a [PhD in Economics at Stellenbosch University](https://www.sun.ac.za/english/faculty/economy). My dissertation, *Informality, Labour Market Dynamics and Poverty in Zimbabwe*, looks at informal sector dynamics, productivity gaps, and the survival strategies of workers and households. It is supervised by [Eldridge Moses](https://www.ekon.sun.ac.za/staff/moses-eldridge) and [Kholekile Malindi](https://www.ekon.sun.ac.za/staff/malindi-kholekile).
