@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
+<p class="mz-tagline">Research on <span id="mz-rotator" data-words="informality|labour markets|poverty dynamics|social protection">informality</span> in Southern Africa</p>
 
 I am a development economist completing a [PhD in Economics at Stellenbosch University](https://www.sun.ac.za/english/faculty/economy). My dissertation, *Informality, Labour Market Dynamics and Poverty in Zimbabwe*, looks at informal sector dynamics, productivity gaps, and the survival strategies of workers and households. It is supervised by [Eldridge Moses](https://www.ekon.sun.ac.za/staff/moses-eldridge) and [Kholekile Malindi](https://www.ekon.sun.ac.za/staff/malindi-kholekile). I teach macroeconomics, econometrics and game theory in the Department of Economics at Stellenbosch, and I am a member of the [Research on Socio-Economic Policy (RESEP)](https://resep.sun.ac.za/) unit, the [Econometric Society](https://www.econometricsociety.org/), and the Zimbabwe Economics Society. My research interests span labour markets, the informal sector, public finance, social protection, and poverty dynamics in sub-Saharan Africa. I hold a Master's and an Honours degree in Economics from the [University of Zimbabwe](https://www.uz.ac.zw/), where my master's dissertation was supervised by [Pheneas Kadenge](https://www.uz.ac.zw/index.php/social-studies-departments/234-department-of-economics/economics-staff/528-dr-pheneas-kadenge).
 
