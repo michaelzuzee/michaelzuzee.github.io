@@ -1,0 +1,141 @@
+/* ==========================================================
+   Animations for michaelzuzee.github.io
+   Loads after custom.css. Remove the link in head/custom.html
+   to switch every animation off at once.
+   ========================================================== */
+
+@media (prefers-reduced-motion: no-preference) {
+
+  /* ---------- 1. Gentle entrance when a page opens ---------- */
+
+  @keyframes mz-fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  @keyframes mz-fade-up {
+    from { opacity: 0; transform: translateY(14px); }
+    to   { opacity: 1; transform: none; }
+  }
+
+  @keyframes mz-pop {
+    from { opacity: 0; transform: scale(0.92); }
+    to   { opacity: 1; transform: none; }
+  }
+
+  .sidebar {
+    animation: mz-fade-in 0.7s ease backwards;
+  }
+
+  .author__avatar img {
+    animation: mz-pop 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) backwards;
+  }
+
+  .page__title {
+    animation: mz-fade-up 0.6s ease backwards;
+  }
+
+  /* ---------- 2. Sections fade up as you scroll (script adds the classes) ---------- */
+
+  .mz-reveal {
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity 0.6s ease, transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+
+  .mz-reveal.mz-in {
+    opacity: 1;
+    transform: none;
+  }
+
+  /* ---------- 3. Hover touches ---------- */
+
+  .author__avatar img {
+    transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.35s ease;
+  }
+
+  .author__avatar img:hover {
+    transform: scale(1.04) rotate(-1deg);
+    box-shadow: 0 0 0 1px var(--mz-line), 0 14px 32px rgba(27, 36, 48, 0.18);
+  }
+
+  .author__urls li {
+    transition: transform 0.2s ease;
+  }
+
+  .author__urls li:hover {
+    transform: translateX(4px);
+  }
+
+  .btn {
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+  }
+
+  .btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(15, 76, 129, 0.25);
+  }
+
+  /* ---------- 4. Links draw an underline from the left on hover ---------- */
+
+  .page__content p a,
+  .page__content li a {
+    border-bottom: 0;
+    background-image:
+      linear-gradient(rgba(15, 76, 129, 0.3), rgba(15, 76, 129, 0.3)),
+      linear-gradient(var(--mz-accent), var(--mz-accent));
+    background-repeat: no-repeat;
+    background-position: 0 100%, 0 100%;
+    background-size: 100% 1px, 0% 2px;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    transition: background-size 0.3s ease, color 0.15s ease;
+  }
+
+  .page__content p a:hover,
+  .page__content li a:hover {
+    background-size: 100% 1px, 100% 2px;
+  }
+
+  /* ---------- 5. Rotating keyword line on the About page ---------- */
+
+  #mz-rotator {
+    display: inline-block;
+    transition: opacity 0.35s ease, transform 0.35s ease;
+  }
+
+  #mz-rotator.mz-out {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+
+/* ---------- Always on ---------- */
+
+.mz-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 0;
+  background: linear-gradient(90deg, var(--mz-accent), #3b82c4);
+  z-index: 9999;
+  pointer-events: none;
+}
+
+.mz-tagline {
+  font-family: var(--mz-serif);
+  font-size: 1.15em;
+  color: var(--mz-muted);
+  margin: -0.4em 0 1.4em;
+}
+
+#mz-rotator {
+  color: var(--mz-accent);
+  font-weight: 600;
+}
+
+@media print {
+  .mz-progress { display: none; }
+  .mz-reveal { opacity: 1 !important; transform: none !important; }
+}
