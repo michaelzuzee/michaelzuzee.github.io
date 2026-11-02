@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<p class="mz-tagline">Research on <span class="mz-swap" id="mz-swap"><span class="mz-word">informality</span></span> in Southern Africa</p>
+<p class="mz-tagline">Research on <span class="mz-type" id="mz-type">informality</span><span class="mz-cursor"></span><br><span class="mz-sub">in Southern Africa</span></p>
 
 I am a development economist completing a [PhD in Economics at Stellenbosch University](https://www.sun.ac.za/english/faculty/economy). My dissertation, *Informality, Labour Market Dynamics and Poverty in Zimbabwe*, looks at informal sector dynamics, productivity gaps, and the survival strategies of workers and households. It is supervised by [Eldridge Moses](https://www.ekon.sun.ac.za/staff/moses-eldridge) and [Kholekile Malindi](https://www.ekon.sun.ac.za/staff/malindi-kholekile). I teach macroeconomics, econometrics and game theory in the Department of Economics at Stellenbosch, and I am a member of the [Research on Socio-Economic Policy (RESEP)](https://resep.sun.ac.za/) unit, the [Econometric Society](https://www.econometricsociety.org/), and the Zimbabwe Economics Society. My research interests span labour markets, the informal sector, public finance, social protection, and poverty dynamics in sub-Saharan Africa. I hold a Master's and an Honours degree in Economics from the [University of Zimbabwe](https://www.uz.ac.zw/), where my master's dissertation was supervised by [Pheneas Kadenge](https://www.uz.ac.zw/index.php/social-studies-departments/234-department-of-economics/economics-staff/528-dr-pheneas-kadenge).
 
@@ -17,31 +17,36 @@ I work with household survey and administrative data, using applied microeconome
 
 <script>
 (function () {
-  var box = document.getElementById('mz-swap');
-  if (!box) return;
+  var el = document.getElementById('mz-type');
+  if (!el) return;
   var words = ['informality', 'labour markets', 'poverty dynamics', 'social protection'];
-  var i = 0;
-  var cur = box.querySelector('.mz-word');
-  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  function measure(el) { return el.getBoundingClientRect().width; }
-  function setWidth() { box.style.width = measure(cur) + 'px'; }
-  setWidth();
-  if (document.fonts && document.fonts.ready) document.fonts.ready.then(setWidth);
-  if (reduce) return;
-  setInterval(function () {
-    i = (i + 1) % words.length;
-    var next = document.createElement('span');
-    next.className = 'mz-word enter';
-    next.textContent = words[i];
-    box.appendChild(next);
-    var w = measure(next);
-    void next.offsetWidth;
-    box.style.width = w + 'px';
-    next.classList.remove('enter');
-    cur.classList.add('exit');
-    var old = cur;
-    cur = next;
-    setTimeout(function () { old.remove(); }, 700);
-  }, 2800);
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var wi = 0;
+  var ci = words[0].length;
+  var deleting = false;
+  function tick() {
+    var w = words[wi];
+    if (!deleting) {
+      if (ci < w.length) {
+        ci++;
+        el.textContent = w.slice(0, ci);
+        setTimeout(tick, 70);
+      } else {
+        deleting = true;
+        setTimeout(tick, 1800);
+      }
+    } else {
+      if (ci > 0) {
+        ci--;
+        el.textContent = w.slice(0, ci);
+        setTimeout(tick, 35);
+      } else {
+        deleting = false;
+        wi = (wi + 1) % words.length;
+        setTimeout(tick, 350);
+      }
+    }
+  }
+  tick();
 })();
 </script>
