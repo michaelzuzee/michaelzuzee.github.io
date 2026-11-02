@@ -14,3 +14,34 @@ I am a development economist completing a [PhD in Economics at Stellenbosch Univ
 Before my doctoral studies I worked as an Economist at the [Southern African Parliamentary Support Trust (SAPST)](https://www.sapst.org/), analysing national budgets, public policies, and proposed legislation for Parliamentarians. I served as a Policy Consultant on domestic resource mobilisation for the [African Forum and Network on Debt and Development (AFRODAD)](https://www.afrodad.org/), and as a Statistician at the [Zimbabwe National Statistics Agency (ZIMSTAT)](https://zimstat.co.zw/), where I worked on survey design, data quality control, and processing of household and labour force statistics. I also provide consultancy and advisory services on social protection, public finance, and development policy in Southern Africa. Recent projects cover parliamentary oversight of loans in SADC countries, budget expenditure analysis on early childhood development, and psychosocial support funding across six SADC countries, carried out with [Albert Makochekanwa](https://esami-africa.org/global-faculty-profiles/albert-makochekanwa/), [Chengetai Madziwa-Kanyangu](https://southernafricatrust.org/team/chengetai-madziwa-kanyangu/), [Rangarirai Chikova](https://www.lawyersofafrica.org/about/palu-secretariat/) and [Michael Takudzwa Pasara](https://commerce.nwu.ac.za/economic-and-management-sciences/michael-takudzwa-pasara).
 
 I work with household survey and administrative data, using applied microeconometrics on cross-sectional, panel and synthetic panel data. I am an advanced Stata user and also work in R, and I use NVivo and Atlas.ti for qualitative research.
+
+<script>
+(function () {
+  var box = document.getElementById('mz-swap');
+  if (!box) return;
+  var words = ['informality', 'labour markets', 'poverty dynamics', 'social protection'];
+  var i = 0;
+  var cur = box.querySelector('.mz-word');
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function measure(el) { return el.getBoundingClientRect().width; }
+  function setWidth() { box.style.width = measure(cur) + 'px'; }
+  setWidth();
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(setWidth);
+  if (reduce) return;
+  setInterval(function () {
+    i = (i + 1) % words.length;
+    var next = document.createElement('span');
+    next.className = 'mz-word enter';
+    next.textContent = words[i];
+    box.appendChild(next);
+    var w = measure(next);
+    void next.offsetWidth;
+    box.style.width = w + 'px';
+    next.classList.remove('enter');
+    cur.classList.add('exit');
+    var old = cur;
+    cur = next;
+    setTimeout(function () { old.remove(); }, 700);
+  }, 2800);
+})();
+</script>
