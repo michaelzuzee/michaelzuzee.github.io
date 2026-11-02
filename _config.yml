@@ -11,7 +11,7 @@ title                    : "Michael Zuze"
 title_separator          : "-"
 name                     : &name "Michael Zuze"
 description              : &description "personal description"
-url                      : https://michaelzuzee.github.io
+url                      : "https://michaelzuzee.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "michaelzuzee/michaelzuzee.github.io"
 teaser                   :  # filenamxfe of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
