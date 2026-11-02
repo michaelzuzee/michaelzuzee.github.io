@@ -39,3 +39,17 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* Custom wallpaper */
+body {
+  background-color: #f5f7fa;
+  background-image: url("/images/wallpaper.svg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Lets the wallpaper show through while keeping text readable */
+#main {
+  background: rgba(255, 255, 255, 0.85);
+}
