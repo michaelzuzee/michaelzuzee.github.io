@@ -1,0 +1,128 @@
+/* ==========================================================
+   Wallpaper and colour themes for michaelzuzee.github.io
+   Loads last. Two words in head/custom.html pick the look.
+     data-wallpaper  none | grid | mesh | dots | photo
+     data-theme      ocean | forest | burgundy | slate
+   ========================================================== */
+
+/* ---------- Colour themes (ocean is the default and needs nothing) ---------- */
+
+html[data-theme="forest"] {
+  --mz-accent: #1f5f4a;
+  --mz-accent-dark: #174a3a;
+  --mz-soft: #f4f8f6;
+  --mz-line: #dfe8e3;
+}
+
+html[data-theme="burgundy"] {
+  --mz-accent: #7a1f3d;
+  --mz-accent-dark: #5c172d;
+  --mz-soft: #faf5f7;
+  --mz-line: #eadde2;
+}
+
+html[data-theme="slate"] {
+  --mz-accent: #3b4a5e;
+  --mz-accent-dark: #2a3646;
+  --mz-soft: #f5f6f8;
+  --mz-line: #e1e5ea;
+}
+
+/* Keep small accents in step with the chosen colour */
+
+::selection {
+  background: color-mix(in srgb, var(--mz-accent) 18%, transparent);
+}
+
+.mz-progress {
+  background: var(--mz-accent);
+}
+
+.page__content p a,
+.page__content li a {
+  border-bottom-color: color-mix(in srgb, var(--mz-accent) 30%, transparent);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .page__content p a,
+  .page__content li a {
+    background-image:
+      linear-gradient(color-mix(in srgb, var(--mz-accent) 30%, transparent),
+                      color-mix(in srgb, var(--mz-accent) 30%, transparent)),
+      linear-gradient(var(--mz-accent), var(--mz-accent));
+    background-repeat: no-repeat;
+    background-position: 0 100%, 0 100%;
+    background-size: 100% 1px, 0% 2px;
+    border-bottom: 0;
+  }
+
+  .page__content p a:hover,
+  .page__content li a:hover {
+    background-size: 100% 1px, 100% 2px;
+  }
+}
+
+/* ---------- Wallpaper (painted on the page itself, so layouts are untouched) ---------- */
+
+body {
+  background: transparent;
+}
+
+html {
+  background-color: #ffffff;
+}
+
+/* Graph paper, a nod to the charts economists draw */
+html[data-wallpaper="grid"] {
+  background-color: #fbfcfe;
+  background-image:
+    linear-gradient(color-mix(in srgb, var(--mz-accent) 7%, transparent) 1px, transparent 1px),
+    linear-gradient(90deg, color-mix(in srgb, var(--mz-accent) 7%, transparent) 1px, transparent 1px),
+    linear-gradient(color-mix(in srgb, var(--mz-accent) 3.5%, transparent) 1px, transparent 1px),
+    linear-gradient(90deg, color-mix(in srgb, var(--mz-accent) 3.5%, transparent) 1px, transparent 1px);
+  background-size: 120px 120px, 120px 120px, 24px 24px, 24px 24px;
+  background-attachment: fixed;
+}
+
+/* Soft colour glow in the corners */
+html[data-wallpaper="mesh"] {
+  background-color: #f7f9fc;
+  background-image:
+    radial-gradient(60% 50% at 8% 6%, color-mix(in srgb, var(--mz-accent) 15%, transparent), transparent 70%),
+    radial-gradient(50% 45% at 96% 12%, color-mix(in srgb, var(--mz-accent) 8%, transparent), transparent 70%),
+    radial-gradient(55% 50% at 80% 100%, color-mix(in srgb, var(--mz-accent) 11%, transparent), transparent 70%);
+  background-attachment: fixed;
+}
+
+/* Fine dot pattern */
+html[data-wallpaper="dots"] {
+  background-color: #fbfcfe;
+  background-image: radial-gradient(color-mix(in srgb, var(--mz-accent) 18%, transparent) 1.2px, transparent 1.4px);
+  background-size: 22px 22px;
+}
+
+/* Landscape picture under a white veil so text stays easy to read.
+   Needs the file  images/wallpaper.jpg  in your repo. */
+html[data-wallpaper="photo"] {
+  background-color: #ffffff;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0.84)),
+    url("/images/wallpaper.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Phones ignore fixed pictures, so keep them plain there */
+@media (max-width: 800px) {
+  html[data-wallpaper="photo"] {
+    background-image: none;
+  }
+}
+
+@media print {
+  html {
+    background: #ffffff !important;
+  }
+}
