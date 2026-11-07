@@ -65,14 +65,18 @@ body > div,
   background-image: none !important;
 }
 
-/* Keeps the main text on a soft white panel so it stays easy to read */
+/* Frosted glass panel so the text stays crisp over the wallpaper */
 #main {
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 
-/* See-through top bar so the wallpaper shows across the whole page */
+/* Top bar with the same frosted glass look */
 .masthead {
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 
 /* Typewriter research line */
