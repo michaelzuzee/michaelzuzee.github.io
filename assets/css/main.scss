@@ -46,6 +46,25 @@ body {
   background: #87ceeb url("/images/zuze.jpg") center / cover no-repeat fixed !important;
 }
 
+/* Remove any grid layers sitting on top of the wallpaper */
+html::before,
+html::after,
+body::before,
+body::after {
+  content: none !important;
+  background: none !important;
+}
+
+body > div,
+.initial-content,
+.layout--single,
+.layout--home,
+.layout--splash,
+.page,
+.page__inner-wrap {
+  background-image: none !important;
+}
+
 /* Keeps the main text on a soft white panel so it stays easy to read */
 #main {
   background: rgba(255, 255, 255, 0.85);
