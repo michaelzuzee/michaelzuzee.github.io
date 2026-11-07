@@ -40,9 +40,9 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-/* Plain sky blue background on every page */
+/* Wallpaper on every page, sky blue shows while the image loads */
 body {
-  background-color: #87ceeb;
+  background: #87ceeb url("/images/zuze.jpg") center / cover no-repeat fixed;
 }
 
 /* Keeps the main text on a soft white panel so it stays easy to read */
