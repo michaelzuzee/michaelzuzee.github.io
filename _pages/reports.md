@@ -4,8 +4,6 @@ layout: archive
 title: "Articles"
 permalink: /articles/
 author_profile: true
-toc: true
-toc_label: "On this page"
 ---
 
 ## Newspaper Articles and Opinion Pieces
