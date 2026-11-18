@@ -1,3 +1,4 @@
+
 ---
 layout: archive
 title: "Articles"
@@ -51,10 +52,10 @@ toc_label: "On this page"
 
 - **[Nexus Between Tax, Public Debt and Inequality in the Southern African Development Community (SADC)](https://afrodad.org/sites/default/files/publications/Nexus-between-Debt-tax-and-inequality-1.pdf)**  
   *African Forum and Network on Debt and Development (AFRODAD)* · December 2020  
-  Policy research report. Acknowledged for reviewing and editing.
+  **Contribution:** Acknowledged for reviewing and editing the policy research report.
 
 ---
 
 ## Additional Publications
 
-For my academic research publications, working papers and ongoing research projects, see my [Publications](/publications/) page.
+For my academic research publications, working papers, and ongoing research projects, see my [Publications](/publications/) page.
