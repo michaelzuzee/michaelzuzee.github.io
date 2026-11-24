@@ -19,7 +19,7 @@ Opinion pieces and policy writing on informality, public finance, money and ener
 - [Actions to end load shedding and achieve energy security](https://theindependent.co.zw/article/actions-to-end-load-shedding-and-achieve-energy-security) · Dec 2022
 - [New perspectives: Diaspora bonds: A potential game-changer](https://theindependent.co.zw/article/new-perspectives-diaspora-bonds-a-potential-game-changer/) · Oct 2022
 
-## Policy Writing and Research
+## Policy Writing and Blogs
 
 *African Forum and Network on Debt and Development (AFRODAD)*
 
