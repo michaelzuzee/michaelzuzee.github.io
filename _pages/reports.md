@@ -18,8 +18,9 @@ Opinion pieces and policy writing on informality, public finance, money and ener
 - [Critical analysis of RBZ's planned digital currency](https://theindependent.co.zw/article/critical-analysis-of-rbzs-planned-digital-currency/) · May 2023
 - [Actions to end load shedding and achieve energy security](https://theindependent.co.zw/article/actions-to-end-load-shedding-and-achieve-energy-security) · Dec 2022
 - [New perspectives: Diaspora bonds: A potential game-changer](https://theindependent.co.zw/article/new-perspectives-diaspora-bonds-a-potential-game-changer/) · Oct 2022
+- [An analysis of bank lending suspension](https://theindependent.co.zw/article/an-analysis-of-bank-lending-suspension/) · May 2022
 
-## Policy Writing and Blogs
+## Policy Writing and Research
 
 *African Forum and Network on Debt and Development (AFRODAD)*
 
