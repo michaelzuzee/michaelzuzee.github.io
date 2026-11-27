@@ -114,10 +114,12 @@ html[data-wallpaper="photo"] {
   background-attachment: fixed;
 }
 
-/* Phones ignore fixed pictures, so keep them plain there */
+/* Preserve the wallpaper on phones without fixed-background scrolling. */
 @media (max-width: 800px) {
   html[data-wallpaper="photo"] {
-    background-image: none;
+    background-attachment: scroll;
+    background-size: auto 100vh;
+    background-position: center top;
   }
 }
 
