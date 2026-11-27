@@ -36,13 +36,8 @@ Economic Research Southern Africa (ERSA) Working Paper (in preparation).
 
 ## Ongoing research projects
 
-**Who Adopts Generative AI and What Happens to Jobs? Evidence from Linked Firm Panels in Kenya and Nigeria**
-
-Examines the correlates of AI adoption, firm capabilities and employment changes associated with adoption using linked firm-level survey data.
-
-**Climate Shocks, Commodity Price Movements and Fiscal Dynamics in Africa**
-
-Investigates the relationship between climate shocks, commodity price movements and government revenue, expenditure and fiscal balances in African economies.
+- **Who Adopts Generative AI and What Happens to Jobs? Evidence from Linked Firm Panels in Kenya and Nigeria**
+- **Climate Shocks, Commodity Price Movements and Fiscal Dynamics in Africa**
 
 ## Doctoral research
 
