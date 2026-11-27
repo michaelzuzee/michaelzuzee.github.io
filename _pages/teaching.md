@@ -9,8 +9,6 @@ author_profile: true
 
 **Teaching Assistant, Stellenbosch University, South Africa (2026)**
 
-Undergraduate tutorials and seminars in Macroeconomics, Econometrics and Game Theory.
-
 **Part-time Lecturer, Marondera University of Agricultural Sciences and Technology, Zimbabwe (2019–2020)**
 
 Undergraduate economics teaching.
