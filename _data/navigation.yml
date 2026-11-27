@@ -1,12 +1,21 @@
-# main links links
+# Main navigation links
 main:
-  - title: "Publications"
+  - title: "Home"
+    url: /
+
+  - title: "Research"
     url: /publications/
 
-  - title: "Articles"
+  - title: "Policy & Consultancy"
+    url: /consultancy/
+
+  - title: "Teaching"
+    url: /teaching/
+
+  - title: "Media"
     url: /articles/
 
-  - title: "Useful resources"
+  - title: "Resources"
     url: /usefulresources/
 
   - title: "CV"
