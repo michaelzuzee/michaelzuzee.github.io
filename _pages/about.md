@@ -11,31 +11,13 @@ redirect_from:
 
 <p class="mz-tagline">My research in Southern Africa focuses on <span class="mz-type" id="mz-type">informality</span><span class="mz-cursor"></span></p>
 
-I am an applied development microeconomist specialising in labour markets, informality, enterprise productivity and poverty dynamics in sub-Saharan Africa. My research uses household, labour-force and enterprise survey microdata to examine economic opportunities, inequality and household welfare.
+I am a development economist, successfully defended my [PhD in Economics at Stellenbosch University](https://www.sun.ac.za/english/faculty/economy) on 22 October 2026. My dissertation, *Informality, Labour Market Dynamics and Poverty in Zimbabwe*, examines the relationship between informal employment and household poverty, productivity differences among informal enterprises in Zimbabwe and South Africa, and labour-market transitions. My PhD supervisors are [Dr Eldridge Moses](https://www.ekon.sun.ac.za/staff/moses-eldridge) and [Dr Kholekile Malindi](https://www.ekon.sun.ac.za/staff/malindi-kholekile). I tutor macroeconomics, econometrics and game theory in the Department of Economics at Stellenbosch, and I am a member of the [Research on Socio-Economic Policy (RESEP)](https://resep.sun.ac.za/) unit, the [Econometric Society](https://www.econometricsociety.org/membership/directory/view/Michael-Zuze-NOK1X1), [The African Studies Centre Leiden](https://ascleiden.nl/content/ASC-community/members/michael-zuze) and the [Zimbabwe Economics Society](https://zesociety.org/). My research interests span labour markets, the informal sector, public finance, social protection, and poverty dynamics in sub-Saharan Africa. I hold a Master's and an Honours degree in Economics from the [University of Zimbabwe](https://www.uz.ac.zw/), where my master's dissertation was supervised by [Dr Phineas Kadenge](https://www.uz.ac.zw/index.php/social-studies-departments/234-department-of-economics/economics-staff/528-dr-pheneas-kadenge).
 
-I successfully defended my doctoral thesis in Economics at [Stellenbosch University](https://www.sun.ac.za/english/faculty/economy) on 22 October 2026. My dissertation, *Informality, Labour Market Dynamics and Poverty in Zimbabwe*, examines the relationship between informal employment and household poverty, productivity gaps in informal enterprises in Zimbabwe and South Africa, and labour-market mobility. My supervisors are [Dr Eldridge Moses](https://www.ekon.sun.ac.za/staff/moses-eldridge) and [Dr Kholekile Malindi](https://www.ekon.sun.ac.za/staff/malindi-kholekile). I hold an MSc and a BSc (Honours) in Economics from the [University of Zimbabwe](https://www.uz.ac.zw/).
+Before my doctoral studies I worked as an Economist at the [Southern African Parliamentary Support Trust (SAPST)](https://www.sapst.org/), analysing national budgets, public policies, and proposed legislation for Parliamentarians. I served as a Policy Consultant on domestic resource mobilisation for the [African Forum and Network on Debt and Development (AFRODAD)](https://www.afrodad.org/), and as a Statistician at the [Zimbabwe National Statistics Agency (ZIMSTAT)](https://zimstat.co.zw/), where I worked on survey design, data quality control, and processing of household and labour force statistics. I also provide consultancy and advisory services on social protection, public finance, and development policy in Southern Africa. Recent projects cover parliamentary oversight of loans in SADC countries, budget expenditure analysis on early childhood development, and psychosocial support funding across six SADC countries, carried out with [Prof Albert Makochekanwa](https://esami-africa.org/global-faculty-profiles/albert-makochekanwa/), [Chengetai Madziwa-Kanyangu](https://southernafricatrust.org/team/chengetai-madziwa-kanyangu/), [Rangarirai Chikova](https://www.lawyersofafrica.org/about/palu-secretariat/) and [Dr Michael Takudzwa Pasara](https://commerce.nwu.ac.za/economic-and-management-sciences/michael-takudzwa-pasara).
 
-**[Download my CV (PDF)](/files/Michael_cv.pdf)** | [Research](/publications/) | [Policy & Consultancy](/consultancy/)
+I work with household survey and administrative data, using applied microeconometrics on cross-sectional, panel and synthetic panel data. I am an advanced Stata user and also work in R. I am developing my Python skills for data science and large-scale data analysis, and I use NVivo and Atlas.ti for qualitative research.
 
-## Research
-
-My research interests include development economics, labour-market dynamics, entrepreneurship, structural transformation, poverty, inequality and social protection. I am also interested in responsible data-driven approaches to economic measurement and policy targeting in data-constrained environments.
-
-I use applied microeconometrics, cross-sectional and panel analysis, synthetic-panel methods, survey-weighted estimation and distributional analysis. My technical toolkit includes advanced Stata, R, LaTeX, NVivo and ATLAS.ti.
-
-## Policy and professional experience
-
-Before my doctoral studies, I worked as an Economist at the [Southern African Parliamentary Support Trust (SAPST)](https://www.sapst.org/), a Policy Consultant at the [African Forum and Network on Debt and Development (AFRODAD)](https://www.afrodad.org/), and a Statistician at the [Zimbabwe National Statistics Agency (ZIMSTAT)](https://zimstat.co.zw/). I also worked as a Research Assistant at the University of Zimbabwe.
-
-Since 2018, my regional consultancy assignments have covered public expenditure, education financing, psychosocial support budgets and parliamentary oversight of public debt across the Southern African Development Community. My work combines quantitative analysis with policy briefs and practical evidence for decision-makers.
-
-## Teaching and academic affiliations
-
-I have taught undergraduate economics at Stellenbosch University, Marondera University of Agricultural Sciences and Technology, and the University of Zimbabwe. My teaching experience includes Macroeconomics, Econometrics and Game Theory.
-
-I am a member of [Research on Socio-Economic Policy (RESEP)](https://resep.sun.ac.za/) at Stellenbosch University, the [Econometric Society](https://www.econometricsociety.org/membership/directory/view/Michael-Zuze-NOK1X1), the [Zimbabwe Economics Society](https://zesociety.org/) and the Young Scholars Initiative, and an associate member of the [African Studies Centre Leiden community](https://ascleiden.nl/content/ASC-community/members/michael-zuze).
-
-For research collaboration, policy analysis or consultancy enquiries, please use the contact details in my author profile.
+**[Download my CV (PDF)](/files/Michael_cv.pdf)**
 
 <script>
 (function () {
