@@ -7,6 +7,8 @@ redirect_from:
   - /resume
 ---
 
+**[Download my full CV (PDF)](/files/Michael_cv.pdf)**
+
 Applied development microeconomist specialising in labour markets, informality, enterprise productivity and poverty dynamics in sub-Saharan Africa.
 
 ## Education
@@ -54,4 +56,3 @@ Applied microeconometrics, cross-sectional and panel analysis, synthetic panels,
 
 RESEP, Stellenbosch University; African Studies Centre Leiden community; Econometric Society; Zimbabwe Economics Society; Young Scholars Initiative.
 
-A full CV is available on request.
