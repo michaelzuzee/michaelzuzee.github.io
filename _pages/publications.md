@@ -5,41 +5,53 @@ permalink: /publications/
 author_profile: true
 ---
 
-My research focuses on development economics, labour markets, informality, poverty and enterprise performance in sub-Saharan Africa. I use applied microeconometric methods and household and enterprise survey data to study economic opportunities and welfare. My current work also examines technological change and fiscal resilience.
+My research focuses on development economics, labour markets, informality, enterprise productivity and poverty dynamics in sub-Saharan Africa. I use applied microeconometric methods and household, labour-force and enterprise survey microdata to examine economic opportunities, inequality and household welfare.
 
-## Journal articles
+## Peer-reviewed publications
 
-**[Can Remittances Boost Tax Revenues in Zimbabwe? A Secondary Quarterly Time-Series Analysis](https://doi.org/10.15604/ejef.2021.09.02.005)** (with Michael Takudzwa Pasara)  
-*Eurasian Journal of Economics and Finance*, 2021 (Vol. 9, Issue 2, pp. 128–144).
+Pasara, M.T. and Zuze, M. (2021). **[Can remittances boost tax revenues in Zimbabwe? A secondary quarterly time series analysis](https://doi.org/10.15604/ejef.2021.09.02.005)**.  
+*Eurasian Journal of Economics and Finance*, 9(2), 128–144.
 
-## Current manuscripts
+## Manuscripts under review
 
-**Gender Gaps in Informal Enterprise Profits: Decomposition and Distributional Evidence from South Africa**  
-*Manuscript in preparation for journal submission.*
+Zuze, M., Moses, E. and Malindi, K. (2026). **Productivity gaps in informal enterprises, evidence from Zimbabwe and South Africa**.  
+*Review of Development Economics* (under review).
 
-This study examines gender disparities in informal enterprise profits in South Africa, using decomposition and unconditional quantile methods to investigate the contribution of observed characteristics and differences across the profit distribution.
+Chipunza, K.J., Zuze, M. and Alhassan, A.L. (2026). **Financial inclusion and household asset ownership among immigrants, evidence from South Africa**.  
+*Social Indicators Research* (under review).
 
-## Doctoral research
+Zuze, M. (2026). **Socioeconomic Inequality in Early Childhood Development Inputs and Outcomes in Zimbabwe**.  
+*South African Journal of Childhood Education (SAJCE)* (under review).
 
-The following studies form part of my doctoral research in economics at Stellenbosch University. The headings describe the research topics.
+## Working papers and papers in preparation
 
-**Informal Employment and Poverty in Zimbabwe**  
-Examines how different forms of informal employment relate to household poverty and how their welfare outcomes compare with unemployment and formal employment.
+Zuze, M. (2026). **Gender Gaps in Informal Enterprise Profits, Decomposition and Distributional Evidence from South Africa**.  
+Economic Research Southern Africa (ERSA) Working Paper (under review).
 
-**Productivity Gaps in Informal Enterprises in Zimbabwe and South Africa**  
-Investigates cross-country differences in informal enterprise productivity and the extent to which observed enterprise characteristics account for these disparities.
+Zuze, M., Moses, E. and Malindi, K. (2026). **Informal Employment and Household Poverty in Zimbabwe**.  
+Research on Socio-Economic Policy (RESEP) Working Paper (in preparation).
 
-**Transitions Between Formal and Informal Employment in Zimbabwe**  
-Examines labour-market mobility, with particular attention to transitions into formal employment and differences across forms of informal work.
+Zuze, M., Moses, E. and Malindi, K. (2026). **Informal Employment and Labour Market Mobility in Zimbabwe**.  
+Economic Research Southern Africa (ERSA) Working Paper (in preparation).
 
 ## Ongoing research projects
 
-**Who Adopts Generative AI and What Happens to Jobs? Evidence from Linked Firm Panels in Kenya and Nigeria**  
-Uses linked firm-level survey data to examine the correlates of AI adoption, firm capabilities and employment changes associated with adoption.
+**Who Adopts Generative AI and What Happens to Jobs? Evidence from Linked Firm Panels in Kenya and Nigeria**
 
-**Climate Shocks, Commodity Price Movements and Fiscal Dynamics in Africa**  
-Investigates the relationship between climate shocks, commodity price movements and fiscal outcomes in African economies, with attention to government revenue, expenditure and fiscal balances.
+Examines the correlates of AI adoption, firm capabilities and employment changes associated with adoption using linked firm-level survey data.
+
+**Climate Shocks, Commodity Price Movements and Fiscal Dynamics in Africa**
+
+Investigates the relationship between climate shocks, commodity price movements and government revenue, expenditure and fiscal balances in African economies.
+
+## Doctoral research
+
+*Informality, Labour Market Dynamics and Poverty in Zimbabwe*.
+
+Stellenbosch University, 2023–2026. Thesis defended on 22 October 2026. Supervisors: Dr Eldridge Moses and Dr Kholekile Malindi.
 
 ## Research interests
 
-Development economics; labour economics; informality; poverty and household welfare; enterprise productivity; technological change; public finance; applied microeconometrics.
+Development economics; informality and labour-market dynamics; firm productivity, entrepreneurship and structural transformation; poverty dynamics, inequality and social protection; applied econometrics and synthetic-panel methods; responsible data-driven economic policy and targeting; economic measurement in data-poor environments.
+
+For policy reports and briefs, see my [Policy & Consultancy](/consultancy/) and [Media](/articles/) pages. For additional information, [download my CV (PDF)](/files/Michael_cv.pdf).
