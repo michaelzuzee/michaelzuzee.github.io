@@ -17,6 +17,8 @@ Before my doctoral studies I worked as an Economist at the [Southern African Par
 
 I work with household survey and administrative data, using applied microeconometrics on cross-sectional, panel and synthetic panel data. I am an advanced Stata user and also work in R. I am developing my Python skills for data science and large-scale data analysis, and I use NVivo and Atlas.ti for qualitative research.
 
+**[Download my CV (PDF)](/files/Michael_cv.pdf)**
+
 <script>
 (function () {
   var el = document.getElementById('mz-type');
