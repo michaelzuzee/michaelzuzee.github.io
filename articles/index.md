@@ -1,11 +1,15 @@
 ---
 layout: archive
-title: "Articles"
+title: "Media"
 permalink: /articles/
 author_profile: true
 ---
 
-## Newspaper Articles
+I contribute to public debates on economic and social policy in Zimbabwe and across Africa, with particular interests in informality, public finance, monetary policy and sustainable development.
+
+## Newspaper opinion and commentary
+
+*The Zimbabwe Independent*
 
 **[Retail shop closures, informalisation](https://www.newsday.co.zw/theindependent/opinion/article/200037985/retail-shop-closures-informalisation)**
 
@@ -35,9 +39,13 @@ author_profile: true
 
 *The Zimbabwe Independent* | 7 October 2022
 
+**[An analysis of bank lending suspension](https://theindependent.co.zw/article/an-analysis-of-bank-lending-suspension/)**
+
+*The Zimbabwe Independent* | May 2022
+
 ---
 
-## Policy Articles and Commentary
+## Policy commentary
 
 **[Adopting FACTI Recommendations as a Tool to Strengthen Efforts to Address Illicit Financial Flows from Africa](https://afrodad.org/media/news/adopting-facti-recommendations-tool-strengthen-efforts-address-illicit-financial-flows)**
 
@@ -45,7 +53,7 @@ author_profile: true
 
 ---
 
-## Policy Research Contributions
+## Contributions to policy research
 
 **[Nexus Between Tax, Public Debt and Inequality in the Southern African Development Community (SADC)](https://afrodad.org/sites/default/files/publications/Nexus-between-Debt-tax-and-inequality-1.pdf)**
 
@@ -55,6 +63,6 @@ author_profile: true
 
 ---
 
-## Additional Publications
+## Academic research
 
-For my academic research publications, working papers, and ongoing research projects, please see my [Publications](/publications/) page.
+For my academic research publications, working papers, and ongoing research projects, please see my [Research](/publications/) page.
