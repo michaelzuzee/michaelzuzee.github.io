@@ -239,3 +239,30 @@ table th {
 .page__content a:hover {
   text-decoration: none;
 }
+
+/* Subtle typography and navigation refinements */
+.greedy-nav .visible-links a[aria-current="page"],
+.greedy-nav .hidden-links a[aria-current="page"] {
+  color: var(--mz-accent-dark);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+}
+.masthead__inner-wrap { padding-top: .75em; padding-bottom: .75em; }
+.greedy-nav a { letter-spacing: 0; }
+.page__content, .archive { overflow-wrap: break-word; }
+.page__content p, .archive p { line-height: 1.7; }
+.archive li, .page__content li { margin-bottom: .35em; }
+.archive a { text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.author__avatar img { max-width: 190px; }
+.author__urls li a { overflow-wrap: anywhere; }
+@media (max-width: 800px) {
+  .masthead__inner-wrap { padding: .65em .85em; }
+  .greedy-nav .hidden-links { max-width: calc(100vw - 2rem); }
+  .page__content, .archive { line-height: 1.65; }
+  .author__avatar img { max-width: 110px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .masthead, .sidebar, .page__title { animation: none; }
+}
